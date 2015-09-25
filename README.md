@@ -46,11 +46,11 @@ ili = ILI9341(1, 0, 21, 26) # /dev/spidev1.0, GPIO21 - D/C, GPIO26 - RESET
 
 ili.clear()
 
-ili.pixel(10,10, 0xffff)
+ili.pixel(10, 10, 0xffff)
 ili.circle_fill(200, 200, 50, 0xf00f)
 ili.circle(100, 100, 50, 0xfff0)
-ili.triangle(50,50,70,70,150,150,0xff00)
-ili.rect(50,50,150,150,0xff00)
+ili.triangle(50, 50, 70, 70, 150, 150, 0xff00)
+ili.rect(50, 50, 150, 150, 0xff00)
 
 ili.char('1', x=1, y=1, color=0x0fff)
 ili.font("ArialBlack24")
@@ -70,11 +70,11 @@ Connects to the specified SPI bus and pins
 
 Clear LCD display.
 
-	invert(mode)
+    invert(mode)
 
 Invert LCD display
 
-	rgb2color(r, g, b)
+    rgb2color(r, g, b)
 
 Convert RGB to internal color.
 
@@ -102,7 +102,7 @@ Draws vertical line at specified location, length and color on LCD display.
 
 Draws horisontal line at specified location, length and color on LCD display.
 
-    "triangle(x0, y0, x1, y1, x2, y2, color)
+    triangle(x0, y0, x1, y1, x2, y2, color)
 
 Draws triangle at specified location and color on LCD display.
 
