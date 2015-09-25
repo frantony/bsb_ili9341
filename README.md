@@ -10,9 +10,11 @@ All code is GPLv2 licensed unless explicitly stated otherwise.
 Building
 --------
 
-Use Black-Swift [VirtualBox VM] (http://www.black-swift.com/wiki/index.php?title=C/C%2B%2B_Building_and_Remote_Debugging_with_Eclipse) for building.<br>
-In virtual machine change directory to /home/openwrt/openwrt.<br>
-Copy sources to package/bsb_ili9341/ directory, for example.<br>
+Use Black-Swift [VirtualBox VM] (http://www.black-swift.com/wiki/index.php?title=C/C%2B%2B_Building_and_Remote_Debugging_with_Eclipse) for building.
+
+In virtual machine change directory to /home/openwrt/openwrt.
+
+Copy sources to package/bsb_ili9341/ directory, for example.
 
 Run ```make oldconfig``` and say yes for new bsb_ili9341 package.
 
